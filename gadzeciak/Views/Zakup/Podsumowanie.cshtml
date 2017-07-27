@@ -1,0 +1,69 @@
+﻿@model gadzeciak.Models.Zamowienie
+
+@{
+    ViewBag.Title = "Podsumowanie";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row" id="sortowanie">
+    <h2>Podsumowanie</h2>
+    <hr />
+    <h2>Serdecznie dziękujemy za zamówienie.</h2>
+    <h2>Zamówienie zostało przyjęte do realizacji.</h2>
+    <br />
+    <hr />
+    <h3>Dane zamówienia zamówienia:</h3>
+    <h4>
+        Data i czas zamówienia: @Model.DataZamowienia<br />
+        Imię: @Session["LogedUsername"].ToString()<br />
+        Nazwisko: @Session["LogedUserSurname"] <br />
+        Ulica: @Model.Ulica <br />
+        Miasto: @Model.Miasto <br />
+        Numer telefonu: @Model.NumerTelefonu <br />
+        Email: @Session["LogedUserEmail"]<br />
+    </h4>
+    <br />
+    <br />
+    <h3>Wartość zamówienia: @Model.Total zł</h3>
+    <br />
+    <hr />
+    <h3>Szczegóły zamówienia:</h3>
+    <table>
+        <tr>
+            <th>
+
+            </th>
+            <th>
+                Nazwa towaru  
+            </th>
+            <th>
+                Cena  
+            </th>
+            <th>
+                Ilość  
+            </th>
+        </tr>
+        @foreach (var item in Model.PozycjaZamowienia)
+        {
+            <tr>
+                <td>
+                    <a href="@item.Produkt.Zdjecie"><img src="@item.Produkt.Zdjecie" border="0" width="100" height="100" alt="obrazek"></a>
+                </td>
+                <td>
+                    @Html.ActionLink(item.Produkt.Nazwa, "Szczegoly", "Produkts", new { id = item.IdProdukt }, null)
+                </td>
+                <td>
+                    @String.Format("{0:F}", item.Produkt.Cena) zł
+                </td>
+                <td>
+                    @String.Format("{0:F}", item.Ilosc) sztuk
+                </td>
+            </tr>
+        }
+    </table>
+    <hr />
+    <h2>Zapraszamy ponownie</h2>
+    <br />
+    <br />
+    <br />
+    
+    </div>

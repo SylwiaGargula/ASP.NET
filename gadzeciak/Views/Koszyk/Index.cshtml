@@ -1,0 +1,63 @@
+﻿@model gadzeciak.Models.DaneDoKoszyka
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="sortowanie">
+    <h2>Mój koszyk</h2>
+    <hr />
+    <div class="row">
+
+        @foreach (var item in Model.ElementyKoszyka)
+        {
+                <!--First column-->
+            <div class="col-lg-3 wow fadeIn" data-wow-delay="0.2s">
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight" style="height:200px">
+
+                        <img src=@item.Produkt.Zdjecie alt="unfinished bingo card" onclick="location.href='@Url.Action("/Szczegoly", "Produkts", new { id=item.Produkt.IdProdukt })'" />
+
+                    </div>
+                    <!--/.Card image-->
+                    <!--Card content-->
+                    <div class="card-block" style="height:200px ">
+                        <!--Title-->
+                        <h4 class="card-title">@item.Produkt.Nazwa</h4>
+
+                        <!--Text-->
+                        <p class="card-text">Cena @item.Produkt.Cena zł</p>
+                        <p class="card-text">Ilość @item.Ilosc zł</p>
+
+
+
+                        <div class="read-more">
+                            <input type="button" value="Usuń z koszyka" class="btn btn-orange" onclick="location.href='@Url.Action("../Koszyk/UsunZKoszyka", "Koszyk", new { id=item.Produkt.IdProdukt })'" />
+                        </div>
+                    </div>
+                    <!--/.Card content-->
+
+                </div>
+                <!--/.Card-->
+            </div>
+
+
+        }
+
+
+    </div>
+    <div class="row">
+        <h4>Razem:@String.Format("{0:F}", Model.Razem) zł</h4>
+    </div>
+
+    <div class="row">
+       
+        <input type="button" value="Wyczyść koszyk" class="btn btn-orange" onclick="location.href='@Url.Action("../Koszyk/UsunWszystkieZKoszyka", "Koszyk")'" />
+        <input type="button" value="Kup" class="btn btn-orange" onclick="location.href='@Url.Action("../Zakup/Dane", "Zakup")'" />
+    </div>
+   
+</div>

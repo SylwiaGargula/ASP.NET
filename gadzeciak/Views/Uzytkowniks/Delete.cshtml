@@ -1,0 +1,75 @@
+﻿@model gadzeciak.Models.Uzytkownik
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row" id="sortowanie">
+    <h2>Usuwanie</h2>
+
+    <h3>Na pewno chcesz usunąć @Model.NazwaUzytkownika?</h3>
+    <div>
+        <h4>Uzytkownik</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Imie)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Imie)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Nazwisko)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Nazwisko)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Adres)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Adres)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Haslo)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Haslo)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.NazwaUzytkownika)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.NazwaUzytkownika)
+            </dd>
+
+        </dl>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Usuń" class="btn btn-orange" /> 
+              
+            </div>
+        }
+    </div>
+  </div>

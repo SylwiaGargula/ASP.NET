@@ -1,0 +1,41 @@
+﻿@model IEnumerable<gadzeciak.Models.UserRoles>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPartial.cshtml";
+}
+<div class="row" id="sortowanie">
+    <h2>Dodaj</h2>
+
+    <p>
+        @Html.ActionLink("Dodaj", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Roles.RoleName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Uzytkownik.NazwaUzytkownika)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Roles.RoleName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Uzytkownik.NazwaUzytkownika)
+                </td>
+                <td>
+                    @Html.ActionLink("Edytuj", "Edit", new { id = item.UserRolesID })
+                    @Html.ActionLink("Usuń", "Delete", new { id = item.UserRolesID })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

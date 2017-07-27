@@ -1,0 +1,49 @@
+﻿@model gadzeciak.Models.Uzytkownik
+
+@{
+    ViewBag.Title = "Login1";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row" id="sortowanie">
+    <h2>AAAAAAAAAAAAAAAAAAAAAAAAA</h2>
+
+    @using (Html.BeginForm("Login1", "Uzytkowniks", FormMethod.Post))
+    {
+        //this  is for create form tag
+        @Html.AntiForgeryToken()          // this is for prevent CSRF attack
+                                    @Html.ValidationSummary(true)
+       
+        <table>
+            <tr>
+                <td>@Html.LabelFor(a => a.NazwaUzytkownika)</td>
+                <td>@Html.TextBoxFor(a => a.NazwaUzytkownika)</td>
+                <td>@Html.ValidationMessageFor(a => a.NazwaUzytkownika)</td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(a => a.Haslo)
+                </td>
+                <td>
+                    @Html.PasswordFor(a => a.Haslo)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(a => a.Haslo)
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Login" />
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    }
+
+    @* This below line is for create javascript section *@
+
+    @section Scripts{
+        @Scripts.Render("~/bundles/jqueryval")
+    }
+
+    </div>

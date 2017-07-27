@@ -1,0 +1,27 @@
+﻿@model gadzeciak.Models.Uzytkownik
+
+@{
+    ViewBag.Title = "AfterLogin";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row" id="sortowanie">
+    <h2>Zalogowałeś się</h2>
+    <hr />
+    @if (Session["LogedUserFullname"] != null)
+    {
+
+        <h2>
+            Witaj @Session["LogedUserFullname"].ToString()!<br />
+            Możesz wrócić do zakupów
+            @Html.ActionLink("tutaj.", "Strona", "Produkts")
+            <br />
+        </h2>
+        <h3>
+            Jeśli to twoje pierwsze logowanie to musisz zaczekać na akceptacje konta przed Administratora.
+        </h3>
+
+
+
+    }
+    </div>

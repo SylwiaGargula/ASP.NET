@@ -1,0 +1,83 @@
+﻿@model gadzeciak.Models.Produkt
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Produkt</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Kategoria.Nazwa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kategoria.Nazwa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nazwa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nazwa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Opis)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Opis)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dostepnosc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dostepnosc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OfertaSpecjalna)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OfertaSpecjalna)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Polecane)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Polecane)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Zdjecie)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Zdjecie)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cena)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cena)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IdProdukt }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

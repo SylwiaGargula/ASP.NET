@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+
+    <link rel="stylesheet" type="text/css" href="~/Content/css/moje.css" />
+
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link href="~/Content/css/mdb.min.css" rel="stylesheet"
+          type="text/css" />
+    <script type="text/javascript"
+            src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="~/Content/js/mdb.min.js"></script>
+
+    
+
+
+
+</head>
+
+
+<body>
+    
+    
+
+    <header>
+
+        <div class="navbar navbar-inverse navbar-fixed-top navbar-light blue">
+            <div class="container">
+                <div class="navbar-header ">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" >
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                   
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Gadżeciak", "Strona", "Produkts")</li>
+                        <li>@Html.ActionLink("Zarejestruj się", "Create", "Uzytkowniks")</li>
+                        <li>@Html.ActionLink("Twój koszyk" , "Index", "Koszyk")</li>
+                        <li style="left:auto">
+                            @{
+                                if (Request.IsAuthenticated)
+                                {
+                                    using (Html.BeginForm("Logout", "Uzytkowniks", FormMethod.Post, new { id = "logoutForm" }))
+                                    {
+                                        <a href="javascript:document.getElementById('logoutForm').submit()" style="align-content:flex-end">Wyloguj się</a>
+                                    }
+                                }
+                                else
+                                {
+                                    @Html.ActionLink("Zaloguj się", "Login", "Uzytkowniks")
+                                }
+                            }
+                        </li>
+                        <li style="left:auto">
+                            @{ 
+                                
+                                    @Html.ActionLink("Panel Administratora","Panel","Produkts")
+
+                            }
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--/.Navbar-->
+
+    </header>
+   
+    
+   <!--wywolanie liczby w koszyku-->
+        
+    <script src="@Url.Content("~/Scripts/jquery-1.10.2.js")" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            
+            $('.Zabawki').click(function () {
+                $.ajax({
+                    cache: false,
+                    type: 'GET',
+                    url: '@Url.Action("Sortuj/1","Produkts")',
+                    success: function (result) {
+                        $('#sortowanie').html(result);
+                    }
+                })
+            })
+
+
+            $('.Jedzenie').click(function () {
+                $.ajax({
+                    cache: false,
+                    type: 'GET',
+                    url: '@Url.Action("Sortuj/2","Produkts")',
+                    success: function (result) {
+                        $('#sortowanie').html(result);
+                    }
+                })
+            })
+
+            $('.Dodatki').click(function () {
+                $.ajax({
+                    cache: false,
+                    type: 'GET',
+                    url: '@Url.Action("Sortuj/3","Produkts")',
+                    success: function (result) {
+                        $('#sortowanie').html(result);
+                    }
+                })
+            })
+
+            $('.Gry').click(function () {
+                $.ajax({
+                    cache: false,
+                    type: 'GET',
+                    url: '@Url.Action("Sortuj/4","Produkts")',
+                    success: function (result) {
+                        $('#sortowanie').html(result);
+                    }
+                })
+            })
+
+            $('.Okolicznosciowe').click(function () {
+                $.ajax({
+                    cache: false,
+                    type: 'GET',
+                    url: '@Url.Action("Sortuj/6","Produkts")',
+                    success: function (result) {
+                        $('#sortowanie').html(result);
+                    }
+                })
+            })
+
+            $('.Kubki').click(function () {
+                $.ajax({
+                    cache: false,
+                    type: 'GET',
+                    url: '@Url.Action("Sortuj/7","Produkts")',
+                    success: function (result) {
+                        $('#sortowanie').html(result);
+                    }
+                })
+            })
+            $('.Elektronika').click(function () {
+                $.ajax({
+                    cache: false,
+                    type: 'GET',
+                    url: '@Url.Action("Sortuj/8","Produkts")',
+                    success: function (result) {
+                        $('#sortowanie').html(result);
+                    }
+                })
+            })
+
+            $('.Sport').click(function () {
+                $.ajax({
+                    cache: false,
+                    type: 'GET',
+                    url: '@Url.Action("Sortuj/9","Produkts")',
+                    success: function (result) {
+                        $('#sortowanie').html(result);
+                    }
+                })
+            })
+            $('.Maski').click(function () {
+                $.ajax({
+                    cache: false,
+                    type: 'GET',
+                    url: '@Url.Action("Sortuj/10","Produkts")',
+                    success: function (result) {
+                        $('#sortowanie').html(result);
+                    }
+                })
+            })
+
+            $('.Wszystko').click(function () {
+                $.ajax({
+                    cache: false,
+                    type: 'GET',
+                    url: '@Url.Action("WszystkieProdukty","Produkts")',
+                    success: function (result) {
+                        $('#sortowanie').html(result);
+                    }
+                })
+            })
+
+
+
+        })
+
+
+
+
+
+
+
+    </script>
+    <div class="row">
+        
+            <div class="col-md-2" id="left">
+                <div class="navbar-default sidebar" role="navigation">
+                    <div class="sidebar-nav navbar-collapse">
+                        <ul class="nav" id="side-menu">
+                            <li class="sidebar-search">
+                                
+                                <!-- /input-group -->
+                            </li>
+                            <li>
+                                <a href="#" class="Zabawki"><i class="glyphicon glyphicon-piggy-bank"></i> Zabawki</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="Jedzenie"><i class="glyphicon glyphicon-ice-lolly-tasted"></i> Jedzenie<span class="fa arrow"></span></a>
+
+
+                            </li>
+                            <li>
+                                <a href="#" class="Dodatki"><i class="glyphicon glyphicon-plus"></i> Dodatki</a>
+                            </li>
+                            <li>
+                                <a href="#" class="Gry"><i class="glyphicon glyphicon-queen"></i> Gry</a>
+                            </li>
+
+                            <li>
+
+                                <a href="#" class="Okolicznosciowe"><i class="glyphicon glyphicon-star"></i> Okolicznościowe</a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="Kubki"><i class="glyphicon glyphicon-glass"></i>Kubki<span class="fa arrow"></span></a>
+
+                            </li>
+
+                            <li>
+                                <a href="#" class="Elektronika"><i class="glyphicon glyphicon-wrench"></i> Elektronika</a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="Sport"><i class="glyphicon glyphicon-tent"></i> Sport</a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="Maski"><i class="glyphicon glyphicon-sunglasses"></i> Maski</a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="Wszystko"><i class="glyphicon glyphicon-option-vertical"></i> Wszystko</a>
+
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <!-- /.sidebar-collapse -->
+                </div>
+            </div>
+        
+
+
+        <div class="col-md-2" id="right">
+            <div class="container body-content">
+
+                @RenderBody()
+                
+            </div>
+        </div>
+        
+    </div>
+
+
+            @Scripts.Render("~/bundles/jquery")
+            @Scripts.Render("~/bundles/bootstrap")
+            @RenderSection("scripts", required: false)
+</body>
+</html>

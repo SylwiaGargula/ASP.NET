@@ -1,0 +1,39 @@
+﻿@model IEnumerable<gadzeciak.Models.Produkt>
+
+@{
+    ViewBag.Title = "PoKategorii";
+}
+
+<div class="row wow">
+    @foreach (var item in Model)
+    {
+
+        <div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">
+            <!--Card-->
+            <div class="card">
+
+                <!--Card image-->
+                <div class="view overlay hm-white-slight" style="height:200px">
+
+                    <img src=@item.Zdjecie alt="unfinished bingo card" onclick="location.href='@Url.Action("/Szczegoly", "Produkts", new { id=item.IdProdukt })'" />
+
+                </div>
+                <!--/.Card image-->
+                <!--Card content-->
+                <div class="card-block" style="height:300px ">
+                    <!--Title-->
+                    <!--Text-->
+                    <h4 class="card-title">@item.Nazwa</h4>
+                    <p class="card-text"style="text-align:justify">@item.Opis</p>
+                    <p class="card-footer">Cena @item.Cena zł</p>
+                    <div class="read-more">
+                        <input type="button" value="Dodaj do koszyka" class="btn btn-orange" onclick="location.href='@Url.Action("../Koszyk/DodajDoKoszyka", "Koszyk", new { id = item.IdProdukt })'" />
+                    </div>
+                </div>
+                <!--/.Card content-->
+
+            </div>
+            <!--/.Card-->
+        </div>
+    }
+    </div>

@@ -1,0 +1,69 @@
+﻿@model IEnumerable<gadzeciak.Models.Produkt>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Kategoria.Nazwa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nazwa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Opis)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dostepnosc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OfertaSpecjalna)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Polecane)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Zdjecie)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cena)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Kategoria.Nazwa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nazwa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Opis)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dostepnosc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OfertaSpecjalna)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Polecane)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Zdjecie)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cena)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IdProdukt }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IdProdukt }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IdProdukt })
+        </td>
+    </tr>
+}
+
+</table>

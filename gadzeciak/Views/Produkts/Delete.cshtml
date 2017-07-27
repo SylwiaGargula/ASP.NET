@@ -1,0 +1,105 @@
+﻿@model gadzeciak.Models.Produkt
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row" id="sortowanie">
+    <h2>Usuwanie</h2>
+
+    <h3>Na pewno chcesz usunąć @Model.Nazwa?</h3>
+    <div>
+        <h4>Produkt</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Kategoria.Nazwa)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Kategoria.Nazwa)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Nazwa)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Nazwa)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Opis)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Opis)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Dostepnosc)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Dostepnosc)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.OfertaSpecjalna)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.OfertaSpecjalna)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Polecane)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Polecane)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Zdjecie)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Zdjecie)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Zdjecie2)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Zdjecie2)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Zdjecie3)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Zdjecie3)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Cena)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Cena)
+            </dd>
+
+        </dl>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Usuń" class="btn btn-orange" />
+
+            </div>
+        }
+    </div>
+</div>

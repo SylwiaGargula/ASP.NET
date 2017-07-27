@@ -1,0 +1,70 @@
+﻿@model gadzeciak.Models.Uzytkownik
+
+@{
+    Layout = null;
+}
+
+
+    <meta name="viewport" content="width=device-width" />
+    <h2>Details</h2>
+
+    <div>
+        <h4>Użytkownik</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Imie)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Imie)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Nazwisko)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Nazwisko)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Adres)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Adres)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Haslo)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Haslo)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.NazwaUzytkownika)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.NazwaUzytkownika)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.IdUzytkownik }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

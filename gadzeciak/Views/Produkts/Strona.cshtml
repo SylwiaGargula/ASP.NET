@@ -1,0 +1,285 @@
+﻿@model IEnumerable<gadzeciak.Models.Produkt>
+
+@{
+    ViewBag.Title = "Strona";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/moje.css" />
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link href="~/Content/css/mdb.min.css" rel="stylesheet"
+          type="text/css" />
+    <script type="text/javascript"
+            src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="~/Content/js/mdb.min.js"></script>
+
+    <title>Material Design Bootstrap</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <!-- Template styles -->
+    <style rel="stylesheet">
+        /* TEMPLATE STYLES */
+
+        main {
+            margin-top: 3rem;
+        }
+
+            main .card {
+                margin-bottom: 2rem;
+            }
+
+       
+        .navbar {
+            background-color: #1e90ff;
+           
+        }
+
+        footer.page-footer {
+            background-color: #1e90ff;
+            margin-top: 2rem;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <main>
+        <!--Main layout-->
+        
+        <div class="container">
+
+           
+            <hr />
+            <h1>Oferta specjalna</h1>
+
+            <div class="row wow">
+                @if (true)
+                {
+                    var i = 0;
+
+
+
+                    foreach (var item in Model)
+                    {
+
+                        if (i < 3)
+                        {
+                            if (item.OfertaSpecjalna == true)
+                            {
+
+                <!--First column-->
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">
+                    <!--Card-->
+                    <div class="card" >
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight" style="height:200px ">
+                         
+                            <img src=@item.Zdjecie alt="unfinished bingo card" onclick="location.href='@Url.Action("/Szczegoly", "Produkts", new { id=item.IdProdukt })'"/>
+                            
+                        </div>
+                        <!--/.Card image-->
+                        <!--Card content-->
+                        <div class="card-block" style="height:300px ">
+                            <!--Title-->
+                            <h4 class="card-title">@item.Nazwa</h4>
+                            <!--Text-->
+                            <p class="card-text"style="text-align:justify">@item.Opis</p>
+                            <p class="card-footer" style="color:orangered">Cena @item.Cena zł Promocja!</p>
+                            <div class="read-more">
+                                <input type="button" value="Dodaj do koszyka" class="btn btn-orange" onclick="location.href='@Url.Action("../Koszyk/DodajDoKoszyka", "Koszyk", new { id=item.IdProdukt })'" />
+                            </div>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                                i++;
+                            }
+                        }
+                    }
+                }
+
+            </div>
+            <hr />
+
+            <div class="row" id="sortowanie">
+
+
+                <h1>Wszystkie produkty</h1>
+                <!--First row-->
+                <div class="row wow">
+                    @if (true)
+                    {
+                       
+                        foreach (var item1 in Model)
+                        {
+                            
+                <!--First column-->
+                                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.4s" >
+                                    <!--Card-->
+                                    <div class="card" >
+
+                                        <!--Card image rozmiar obrazka-->
+                                        <div class="view overlay hm-white-slight" style="height:200px " >
+                                            <img src=@item1.Zdjecie alt="unfinished bingo card" onclick="location.href='@Url.Action("/Szczegoly", "Produkts", new { id=item1.IdProdukt })'" />
+
+                                        </div>
+                                        <!--/.Card image-->
+                                        <!--Card content rozmiar tekstow-->
+                                        <div class="card-block" style="height:300px" >
+                                            <!--Title-->
+                                            <h4 class="card-title">@item1.Nazwa</h4>
+                                            <!--Text-->
+                                            <p class="card-text" style="text-align:justify">@item1.Opis</p>
+                                            <p class="card-footer">Cena @item1.Cena zł</p>
+                                            <div class="read-more" >
+                                                <input type="button" value="Dodaj do koszyka" class="btn btn-orange" onclick="location.href='@Url.Action("../Koszyk/DodajDoKoszyka", "Koszyk", new { id=item1.IdProdukt })'" />
+
+                                            </div>
+                                        </div>
+                                        <!--/.Card content-->
+
+                                    </div>
+                                    <!--/.Card-->
+                                </div>
+                              
+                        }
+                    }
+                </div>
+                <!--/.Second row-->
+
+            </div>
+            <hr>
+            
+        </div>
+        <!--/.Main layout-->
+    </main>
+
+    <!--Footer-->
+    <footer class="page-footer center-on-small-only">
+        <!--Footer links-->
+        <div class="container-fluid">
+            <div class="row">
+                <!--First column-->
+                <div class="col-md-3 offset-lg-1 hidden-lg-down">
+                    <h5 class="title">Pomoc</h5>
+                    <p>Regulamin</p>
+                    <p>Formularz kontaktowy</p>
+                    <p>Polityka prywatności</p>
+                </div>
+                <!--/.First column-->
+                <hr class="hidden-md-up">
+                <!--Second column-->
+                <div class="col-lg-2 col-md-4 offset-lg-1">
+                    <h5 class="title">Dostawa</h5>
+                    <ul>
+                        <li>
+                            <a href="#!">Koszty i czas dostawy</a>
+                        </li>
+                        <li>
+                            <a href="#!">Sposoby płatności</a>
+                        </li>
+                        <li>
+                            <a href="#!">Zwrot towaru</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!--/.Second column-->
+                <hr class="hidden-md-up">
+                <!--Third column-->
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="title">Moje konto</h5>
+                    <ul>
+                        <li>
+                            <a href="#!">Twoje zamówienia</a>
+                        </li>
+                        <li>
+                            <a href="#!">Ustawienia konta</a>
+                        </li>
+                        <li>
+                            <a href="#!">Przechowalnia</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!--/.Third column-->
+                <hr class="hidden-md-up">
+                <!--Fourth column-->
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="title">O firmie</h5>
+                    <ul>
+                        <li>
+                            <a href="#!">Informacje o firmie</a>
+                        </li>
+                        <li>
+                            <a href="#!">Nasze sklepy</a>
+                        </li>
+                        <li>
+                            <a href="#!">Kontakt</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!--/.Fourth column-->
+            </div>
+        </div>
+        <!--/.Footer links-->
+        <hr>
+
+
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="containter-fluid">
+                © 2015 Copyright: <a href="http://www.MDBootstrap.com"> MDBootstrap.com </a>
+               
+            </div>
+        </div>
+        <!--/.Copyright-->
+    </footer>
+    <!--/.Footer-->
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script>
+    new WOW().init();
+    </script>
+
+</body>
+
+</html>

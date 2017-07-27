@@ -1,0 +1,193 @@
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\ApplicationInsights.config
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\csc.exe
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\csc.exe.config
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\csc.rsp
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\csi.exe
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\csi.rsp
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\System.AppContext.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\System.Collections.Immutable.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\System.IO.FileSystem.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\System.Reflection.Metadata.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\vbc.exe
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\vbc.exe.config
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\vbc.rsp
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\VBCSCompiler.exe
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\roslyn\VBCSCompiler.exe.config
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\gadzeciak.dll.config
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\gadzeciak.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\gadzeciak.pdb
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\Antlr3.Runtime.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\Microsoft.AI.DependencyCollector.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\Microsoft.AI.Web.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\Microsoft.AI.WindowsServer.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\Microsoft.ApplicationInsights.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\Microsoft.Web.Infrastructure.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\Newtonsoft.Json.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\System.Web.Helpers.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\System.Web.Mvc.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\System.Web.Optimization.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\System.Web.Razor.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\System.Web.WebPages.Deployment.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\System.Web.WebPages.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\System.Web.WebPages.Razor.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\WebGrease.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\System.Web.Helpers.xml
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\System.Web.Mvc.xml
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\System.Web.Optimization.xml
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\System.Web.Razor.xml
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\System.Web.WebPages.xml
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\System.Web.WebPages.Deployment.xml
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\System.Web.WebPages.Razor.xml
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\Antlr3.Runtime.pdb
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\Newtonsoft.Json.xml
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\Microsoft.ApplicationInsights.xml
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\Microsoft.AI.DependencyCollector.xml
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\Microsoft.AI.WindowsServer.xml
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\bin\Microsoft.AI.Web.xml
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\obj\Debug\gadzeciak.dll
+F:\Sylwik\Documents\Visual Studio 2017\Projects\gadzeciak\gadzeciak\obj\Debug\gadzeciak.pdb
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\bin\MaterialDesign.dll
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\bin\MaterialDesignColors.dll
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\bin\MaterialDesignThemes.Wpf.dll
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\bin\MaterialDesignColors.pdb
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\bin\MaterialDesignThemes.Wpf.pdb
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\bin\MaterialDesignThemes.Wpf.xml
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\bin\EntityFramework.dll
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\bin\EntityFramework.SqlServer.dll
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\bin\EntityFramework.xml
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\bin\EntityFramework.SqlServer.xml
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\obj\Debug\gadzeciak.Migrations.InitialCreate.resources
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\obj\Debug\gadzeciak.csproj.GenerateResource.Cache
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\obj\Debug\gadzeciak.Migrations.jeden.resources
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\obj\Debug\gadzeciak.Migrations.dwa.resources
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\obj\Debug\gadzeciak.Migrations.trzy.resources
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\obj\Debug\gadzeciak.Migrations._4.resources
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\obj\Debug\gadzeciak.Migrations._5.resources
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\obj\Debug\gadzeciak.Migrations.koszyk.resources
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\obj\Debug\gadzeciak.Migrations.konta.resources
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\obj\Debug\gadzeciak.Migrations.klucz.resources
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\obj\Debug\gadzeciak.Migrations.role.resources
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\obj\Debug\gadzeciak.Migrations.rejestracja.resources
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\obj\Debug\gadzeciak.Migrations.UserRoles.resources
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\obj\Debug\gadzeciak.Migrations.produkty.resources
+f:\sylwik\documents\visual studio 2017\Projects\gadzeciak\gadzeciak\obj\Debug\gadzeciak.Migrations.mail.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations.InitialCreate.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations.jeden.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations.dwa.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations.trzy.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations._4.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations._5.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations.koszyk.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations.konta.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations.klucz.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations.role.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations.rejestracja.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations.UserRoles.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations.produkty.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations.mail.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.csproj.GenerateResource.Cache
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.pdb
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\ApplicationInsights.config
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\csc.exe
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\csc.exe.config
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\csc.rsp
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\csi.exe
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\csi.rsp
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\System.AppContext.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\vbc.exe
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\vbc.exe.config
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\vbc.rsp
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\gadzeciak.dll.config
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\gadzeciak.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\gadzeciak.pdb
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\Antlr3.Runtime.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\EntityFramework.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\EntityFramework.SqlServer.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\MaterialDesign.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\MaterialDesignColors.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\MaterialDesignThemes.Wpf.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\Microsoft.AI.Web.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\Newtonsoft.Json.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\System.Web.Helpers.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\System.Web.Mvc.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\System.Web.Optimization.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\System.Web.Razor.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\System.Web.WebPages.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\WebGrease.dll
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\EntityFramework.xml
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\EntityFramework.SqlServer.xml
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\MaterialDesignColors.pdb
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\MaterialDesignThemes.Wpf.pdb
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\MaterialDesignThemes.Wpf.xml
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\System.Web.Helpers.xml
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\System.Web.Mvc.xml
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\System.Web.Optimization.xml
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\System.Web.Razor.xml
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\System.Web.WebPages.xml
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\Antlr3.Runtime.pdb
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\Newtonsoft.Json.xml
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\bin\Microsoft.AI.Web.xml
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations.nazwa.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations.role1.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations.kluczeobce.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations.dopiski.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations.dopiski2.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations.zamowienie.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations._decimal.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations.decimal1.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.csprojResolveAssemblyReference.cache
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations.zakupy.resources
+C:\Users\Sylwik\Desktop\gadzeciak — kopia (4)\gadzeciak\obj\Debug\gadzeciak.Migrations.dopiskiKolejne.resources

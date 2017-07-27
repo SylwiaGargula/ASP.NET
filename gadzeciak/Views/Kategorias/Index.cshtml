@@ -1,0 +1,35 @@
+﻿@model IEnumerable<gadzeciak.Models.Kategoria>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row" id="sortowanie">
+    <h2>Index</h2>
+
+    <p>
+        @Html.ActionLink("Dodaj", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nazwa)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nazwa)
+                </td>
+                <td>
+                    @Html.ActionLink("Edytuj", "Edit", new { id = item.IdKategoria })
+                    @Html.ActionLink("Usuń", "Delete", new { id = item.IdKategoria })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

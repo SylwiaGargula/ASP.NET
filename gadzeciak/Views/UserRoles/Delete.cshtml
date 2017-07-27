@@ -1,0 +1,43 @@
+﻿@model gadzeciak.Models.UserRoles
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_LayoutPartial.cshtml";
+}
+<div class="row" id="sortowanie">
+    <h2>Usuń</h2>
+
+    <h3>Na pewno chcesz usunąć?</h3>
+    <div>
+        <h4>Role</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Roles.RoleName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Roles.RoleName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Uzytkownik.Imie)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Uzytkownik.Imie)
+            </dd>
+
+        </dl>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Usuń" class="btn btn-orange" />
+
+            </div>
+        }
+    </div>
+    </div>
